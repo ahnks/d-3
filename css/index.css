@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    background: #fff;
+    color: #333
+}
+
+.wrap {
+    width: 100%;
+    height: 970px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.left {
+    width: 200px;
+    height: 870px;
+    background-color: aliceblue;
+    float: left;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.nav {
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main {}
+
+.main>li {
+    position: relative;
+}
+
+.main>li>a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main>li:hover>a {}
+
+.sub {
+    position: absolute;
+    left: 180px;
+    top: 0;
+    width: 1730px;
+    z-index: 100;background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sub li {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+
+.sub li a {
+    display: block;
+    width: 150px;
+}
+
+.sub li a:hover {}
+
+
+.right {
+    width: calc(100% - 200px);
+    height: 870px;
+    background-color: azure;
+    float: right;
+}
+
+
+
+
+
+
+
+.footer {
+    clear: both;
+    width: 100%;
+    height: 120px;
+}
